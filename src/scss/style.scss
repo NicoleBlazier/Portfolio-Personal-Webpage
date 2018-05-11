@@ -1,0 +1,361 @@
+/*
+#ebebeb - light grey
+#242024 - charcoal 
+#6ec4ce - teal
+#c0c0c0 - medium grey
+*/
+
+* {
+    box-sizing: border-box;
+}
+/*  * does not affect the width of the container */
+
+
+body {
+    background-color: lightgray;
+}
+
+/* Navigation Section */
+.container {
+    width: 960px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Headers */
+#header {
+    font-size: 0;
+}
+.boldblueheader {
+    font-weight: bold;
+    color: #6ec4ce;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.boldwhiteheader {
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.normalblackheader {
+    font-weight: bold;
+    color: #242024;
+    font-size: 30px;
+    text-align: left;
+    padding-top: 1rem;
+}
+
+.smallwhiteheader {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.smallblackheader {
+    color: #242024;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#logo {
+    display: inline-block;
+    width: 284px;
+    height: 75px;
+    vertical-align: top;
+    padding: 0; 
+    margin-bottom: auto;
+    overflow: auto;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #242024;
+    color:  white;
+    font-size: 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    padding: 1rem;
+    margin: 0;
+    font-size: 1rem;
+    width: 20%;
+    text-align: center;
+    border-right: 1px solid lightgray;
+}
+
+nav li:hover {
+    background-color: #6ec4ce;
+    color: white;
+}
+
+/* Banner Section */
+#banner {
+    margin-top: 40px;
+    height: 525px;
+    background-image: url('../image/nicole.jpg');
+    background-size: 100% 125%;
+    background-position-y: bottom;
+    text-indent: 50px;
+}
+
+#banner .greeting {
+    font-size: 250%;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    margin-top: 50px;
+    padding: 1rem;
+
+}
+
+#banner .whoiam {
+    font-size: 200%;
+    font-weight: auto;
+    color: white;
+    text-align: left;
+    margin-top: -15px;
+    padding: 1rem;
+}
+
+#info {
+    background-color: #ebebeb;
+    color: #242024;
+    padding: 2rem 4rem;
+    text-align: left;
+    font-size: 16pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+/* Skills Section */
+#promo {
+    font-size: 0;
+    background-color: #242024;
+    color:  white;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+#promo > .column {
+    display: inline-block;
+    width: 25%;
+    padding: 2rem 2rem;
+    text-align: center;
+    vertical-align: top;
+    font-size: 20px;
+    font-weight: normal;
+    }
+
+.column .header {
+    color: #6ec4ce;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #242024;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    width: 800px;
+    margin: 0rem 5rem;
+    border-bottom: 2px solid white;
+}
+.language {
+    background-color: #242024;
+    color: white;
+    line-height: 55px;
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.progress {
+    background-color: #6ec4ce;
+    color: #6ec4ce;
+    line-height: 55px;
+    font-size: 14px;
+    text-align: right;
+}
+.percentage {
+    background-color:#c0c0c0;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    line-height: 55px;
+    font-size: 20px;
+    align-content: center;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #6ec4ce;
+    color: black;
+    height: 600px;
+}
+
+#portfolio button {
+    background-color: #6ec4ce;
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 12px;
+}
+
+#portfolio button:hover {
+    background-color:#242024;
+
+}
+
+/* About Me Section */
+#aboutme .flexcontainer {
+    min-height: 150px;
+    display: flex;
+}
+
+#aboutme {
+    background-color: #ebebeb;
+    color: #242024;
+    font-size: 20px;
+    overflow: hidden;
+    flex-wrap: nowrap;
+}
+
+#aboutme img {
+    width: 100%;
+    height: 100%;
+}
+#aboutme .item1 {
+    width: 50%;
+    height: 50%;
+    padding: 2rem;
+}
+
+#aboutme .button {
+    background-color: #6ec4ce;
+    color: white;
+    padding: 12px 60px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 12px;
+}
+#aboutme .button:hover {
+    background-color:#242024;
+
+}
+
+/* Find Me Here */
+#findmehere {
+    background-color: #242024;
+    overflow: hidden;
+    height: 300px;
+}
+
+#findmehere .row {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+
+/* Contact me  */
+#contactme {
+    background-color: #6ec4ce;
+    color: white;
+    overflow: hidden;
+}
+
+.form {
+    margin: auto 11rem;
+}
+input {
+    width: 300px;
+    height: 30px;
+    border: none;
+    padding: 4px 20px;
+    box-sizing: border-box;
+    margin: 6px 0px;
+    color: #c0c0c0;
+    border: none;
+    color: #242024
+}
+
+h4 {
+    font-size: 24px;
+    text-align: left;
+    margin: 0px 11rem;
+}
+
+textarea {
+    width: 604px;
+    height: 150px;
+    border: none;
+}
+
+.submitbtn button {
+    background-color: #242024;
+    color: #ebebeb;
+    border: none;
+    width: 604px;
+    height: 50px;
+    margin: 1rem auto 1rem 11rem;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+.submitbtn button:hover {
+    background-color: #ebebeb;
+    color: #242024
+}
+
+/* Nice to Meet You Section */
+hr {
+    background-color: #6ec4ce;
+    width: 300px;
+    height: 10px;
+    border: none;
+    margin-top: 3.40rem;
+}
+#nicetomeetyou {
+    background-color: #c0c0c0;
+    color: #242024;
+    overflow: hidden;
+    height: 300px;
+}
+
+.nicerow {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#nicetomeetyou .row {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#nicetomeetyou p {
+    text-align: center;
+}
